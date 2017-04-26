@@ -21,14 +21,14 @@ public class ChessBoard {
         white[5]=new Pawn(Color.white);
         white[6]=new Pawn(Color.white);
         white[7]=new Pawn(Color.white);
-        white[15]=new Rook(Color.white);
-        white[14]=new Knight(Color.white);
-        white[13]=new Bishop(Color.white);
-        white[12]=new Queen(Color.white);
-        white[11]=new King(Color.white);
-        white[10]=new Bishop(Color.white);
-        white[9]=new Knight(Color.white);
         white[8]=new Rook(Color.white);
+        white[9]=new Knight(Color.white);
+        white[10]=new Bishop(Color.white);
+        white[11]=new Queen(Color.white);
+        white[12]=new King(Color.white);
+        white[13]=new Bishop(Color.white);
+        white[14]=new Knight(Color.white);
+        white[15]=new Rook(Color.white);
         
         black[0]=new Rook(Color.black);
         black[1]=new Knight(Color.black);
@@ -176,34 +176,7 @@ public class ChessBoard {
         board[7][5]=white[13].toString();
         board[7][6]=white[14].toString();
         board[7][7]=white[15].toString();
-        
-        
-        
-    /*    int count = 0;
-        for(int i=0; i<board.length; i++)
-        {
-            for(int j = 0; j<8; j++)
-            {
-                if(i==0||i==1)
-                {
-                    board[i][j]=black[count];
-                    count++;
-                }
-                
-                if(i==6||i==7)
-                {
-                    board[i][j].equals(white[count]);
-                    count++;
-                }
-                
-                else
-                {
-                    board[i][j]=null;
-                    count=0;
-                }
-                
-            }
-        }*/
+ 
         
     }
     public String printBoard()
