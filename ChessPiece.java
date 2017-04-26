@@ -10,6 +10,6 @@ public abstract class ChessPiece {
 	{
 		
 	}
-	abstract boolean parseMove(String src, String destination, ChessBoard[][]b);
+	public abstract boolean parseMove(String src, String destination, ChessBoard[][]b);
 	
 }
